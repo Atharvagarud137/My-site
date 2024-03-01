@@ -57,7 +57,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Atharva Garud`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Developer", "Programmer", "ML Enthusiast" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I am pursuing a Bachelor of Technology degree in Information Technology from Pimpri Chinchwad Education Trust's Pimpri Chinchwad College Of Engineering, focusing on software development, programming, and data analysis. I aim to work in a dynamic, innovative tech environment that values collaboration, creativity, and innovation, where I can contribute to impactful projects. As an Engineering student and the Design Co-Lead at the Newton School Coding Club, I work with my team to design solutions that make college-level competitions more user-friendly, efficient, and technologically advanced.</p>
-                  <button onClick={() => window.open('https://drive.google.com/file/d/15oWyCrGOQgQY8iqIORlE5bqFTxxVFAZr/view?usp=sharing', '_blank')}>Download Resume</button>
+                  <button onClick={() => window.open('https://drive.google.com/file/d/1lh1VvTcc6BPiX2Ek1h7qF6MGakA4fhbU/view?usp=drivesdk', '_blank')}>Download Resume</button>
               </div>}
             </TrackVisibility>
           </Col>
