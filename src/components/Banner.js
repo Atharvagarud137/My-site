@@ -55,9 +55,11 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Atharva Garud`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Developer", "Programmer", "ML Enthusiast" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I am pursuing a Bachelor of Technology degree in Information Technology from Pimpri Chinchwad Education Trust's Pimpri Chinchwad College Of Engineering, focusing on software development, programming, and data analysis. I aim to work in a dynamic, innovative tech environment that values collaboration, creativity, and innovation, where I can contribute to impactful projects. As an Engineering student and the Design Co-Lead at the Newton School Coding Club, I work with my team to design solutions that make college-level competitions more user-friendly, efficient, and technologically advanced.</p>
-                  <button onClick={() => window.open('https://drive.google.com/file/d/1WVKRoB7TRjFa1Ae51qMdQ7v8ixop6ISR/view?usp=sharing', '_blank')}>Download Resume</button>
+                <h1>{`Hi! I'm Atharva Garud`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Tester", "Programmer", "ML Enthusiast" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>As a newly minted B.Tech graduate in Information Technology from PCCOE, I have embarked on an exciting new chapter as a Graduate Engineer Trainee at Worldline Global Services.</p> 
+                  <p>In this role, I am able to apply my proficiency in Software Testing, SQL, and UNIX - skills that were honed through rigorous academic projects and internships.</p>
+                  <p>At Worldline, my contributions extend beyond technical expertise. I am an integral part of collaborative efforts, working closely with teams to deliver robust and impactful solutions.</p>
+                  <button onClick={() => window.open('https://drive.google.com/file/d/1snXcf1u3zp5mk_8Ef0p2ve9zGkpXdUPi/view?usp=sharing', '_blank')}>Download Resume</button>
               </div>}
             </TrackVisibility>
           </Col>
