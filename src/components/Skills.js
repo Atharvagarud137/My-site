@@ -66,12 +66,12 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>Programming Languages</h5>
-                                <h6>Python, Java, C, HTML/CSS, JavaScript, SQL</h6>
+                                <h6>Python, SQL, Unix</h6>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
                                 <h5>Developer Tools</h5>
-                                <h6>VS Code, Jupyter Notebook</h6>
+                                <h6>VS Code, SQL Developer</h6>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
