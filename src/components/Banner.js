@@ -59,7 +59,7 @@ export const Banner = () => {
                   <p>As a newly minted B.Tech graduate in Information Technology from PCCOE, I have embarked on an exciting new chapter as a Graduate Engineer Trainee at Worldline Global Services.</p> 
                   <p>In this role, I am able to apply my proficiency in Software Testing, SQL, and UNIX - skills that were honed through rigorous academic projects and internships.</p>
                   <p>At Worldline, my contributions extend beyond technical expertise. I am an integral part of collaborative efforts, working closely with teams to deliver robust and impactful solutions.</p>
-                  <button onClick={() => window.open('https://drive.google.com/file/d/1snXcf1u3zp5mk_8Ef0p2ve9zGkpXdUPi/view?usp=sharing', '_blank')}>Download Resume</button>
+                  <button onClick={() => window.open('https://drive.google.com/file/d/1NB1mpxhjfxowgrt7_Pnbo9WTrjcoUire/view?usp=sharing', '_blank')}>Download Resume</button>
               </div>}
             </TrackVisibility>
           </Col>
