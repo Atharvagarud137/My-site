@@ -10,7 +10,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Software Tester", "Programmer", "ML Enthusiast" ];
+  const toRotate = [ "Software Tester" ];
   const period = 2000;
 
   useEffect(() => {
@@ -55,7 +55,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Atharva Garud`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Tester", "Programmer", "ML Enthusiast" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Atharva Garud`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Tester" ]'><span className="wrap">{text}</span></span></h1>
                   <p>As a Associate Engineer at Worldline Global Services, I am able to apply my proficiency in Software Testing, SQL, and UNIX - skills that were honed through rigorous academic projects and internships.</p>
                   <p>At Worldline, my contributions extend beyond technical expertise. I am an integral part of collaborative efforts, working closely with teams to deliver robust and impactful solutions.</p>
                   <button onClick={() => window.open('https://drive.google.com/file/d/17f2X5ZN8djbNKEa8Y3Np3VGIPrt_qfTr/view?usp=sharing', '_blank')}>Download Resume</button>
